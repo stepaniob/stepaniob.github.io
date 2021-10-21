@@ -1,0 +1,44 @@
+.btn {
+   font-family: inherit;
+   font-size: 1rem;
+   vertical-align: top;
+   display: inline-block;
+   padding: .5em 1em ;
+   color:@white;
+   border-radius: @radius;
+   text-decoration: none;
+   background-color: #ccc;
+
+    & + & {
+       margin-left: 1rem;
+    }
+
+    .disabled & {
+      opacity: .5;
+      cursor: not-allowed;
+    }
+
+   span {
+      color:@black;
+   }
+
+   transition: background .4s linear;
+
+   &:hover,
+   &:focus {
+      outline: 0;
+      background: #c4c4c4;
+   }
+
+   &--primary {
+      .btn(@primary);
+   }
+
+   &--secondary {
+      .btn(@secondary);
+   }
+
+   &--green {
+      .btn(@success);
+   }
+}

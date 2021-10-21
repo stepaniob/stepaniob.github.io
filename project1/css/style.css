@@ -1,0 +1,195 @@
+html,
+body {
+  font-size: 19px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.title {
+  margin: 0;
+  font-size: 2.2rem;
+  color: rgba(0, 0, 255, 0.5);
+  font-weight: 700;
+}
+@media (max-width:575px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+.btn {
+  font-family: inherit;
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  padding: .5em 1em ;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #ccc;
+  -webkit-transition: background .4s linear;
+  transition: background .4s linear;
+}
+.btn + .btn {
+  margin-left: 1rem;
+}
+.disabled .btn {
+  opacity: .5;
+  cursor: not-allowed;
+}
+.btn span {
+  color: #000000;
+}
+.btn:hover,
+.btn:focus {
+  outline: 0;
+  background: #c4c4c4;
+}
+.btn--primary {
+  background-color: #0000ff;
+}
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: #0000cc;
+}
+.btn--secondary {
+  background-color: #ffff60;
+  color: #000000;
+}
+.btn--secondary:hover,
+.btn--secondary:focus {
+  background-color: #ffff2d;
+}
+.btn--green {
+  background-color: #adf776;
+  color: #000000;
+}
+.btn--green:hover,
+.btn--green:focus {
+  background-color: #90f446;
+}
+.post {
+  width: 400px;
+  height: 200px;
+  background: url("/img/black.jpg") center no-repeat;
+}
+.col 1 {
+  width: percentage 0.08333333;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 2 {
+  width: percentage 0.16666667;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 3 {
+  width: percentage 0.25;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 4 {
+  width: percentage 0.33333333;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 5 {
+  width: percentage 0.41666667;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 6 {
+  width: percentage 0.5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 7 {
+  width: percentage 0.58333333;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 8 {
+  width: percentage 0.66666667;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 9 {
+  width: percentage 0.75;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 10 {
+  width: percentage 0.83333333;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 11 {
+  width: percentage 0.91666667;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.col 12 {
+  width: percentage 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
